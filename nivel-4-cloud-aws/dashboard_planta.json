@@ -1,0 +1,10 @@
+{
+  "title": "Planta de Agua Potable - Gemelo Digital OT (AWS Academy)",
+  "uid": "planta-agua-ot",
+  "refresh": "2s",
+  "panels": [
+    { "id": 1, "title": "1. Nivel del Estanque en Tiempo Real (%)", "type": "timeseries" },
+    { "id": 2, "title": "2. Estado Operativo de la Bomba", "type": "stat" },
+    { "id": 3, "title": "3. Registro de Alertas de Seguridad (Safety Alarms <=20% y >=90%)", "type": "table" }
+  ]
+}
